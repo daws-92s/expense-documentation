@@ -32,7 +32,7 @@ rm -rf /usr/share/nginx/html/*
 Download the frontend package:
 
 ```bash
-curl -o /tmp/frontend.tar.gz https://raw.githubusercontent.com/92s-org/expense-documentation/refs/heads/main/artifacts/expense-frontend-v5.tar.gz
+curl -o /tmp/frontend.tar.gz https://raw.githubusercontent.com/daws-92s/expense-documentation/refs/heads/main/artifacts/expense-frontend-v5.tar.gz
 ```
 
 Extract files directly into the Nginx web root (no subfolder):
