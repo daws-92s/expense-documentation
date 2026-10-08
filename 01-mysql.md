@@ -34,7 +34,7 @@ mysql_secure_installation --set-root-pass ExpenseApp@1
 The schema is loaded from the backend server (see [02-backend.md](02-backend.md)). After that, connect to MySQL from the same server:
 
 ```bash
-mysql -u root -pExpenseApp@1
+mysql 
 ```
 
 Connect remotely from another server:
@@ -47,10 +47,6 @@ Check databases and tables:
 
 ```sql
 SHOW DATABASES;
-USE transactions;
-SHOW TABLES;
-DESCRIBE transactions;
-SELECT * FROM transactions;
 ```
 
 ---
